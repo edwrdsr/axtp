@@ -149,8 +149,8 @@ Priority areas:
 
 **Rich** — Builder of [The Abstraction Stack](https://theabstractionstack.com), exploring AI infrastructure and the future of agentic systems. Background in governance, risk, and compliance (GRC) with CISSP certification.
 
-- 𝕏: [@your_handle]
-- Substack: [The Abstraction Stack]
+- 𝕏: [https://x.com/Edwrdsr] 
+- Substack: [(https://theabstractionstack.substack.com/?utm_campaign=profile_chips)]
 
 ## License
 
