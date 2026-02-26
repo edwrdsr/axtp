@@ -15,7 +15,7 @@ Thank you for your interest in contributing to the Agent Experience Transfer Pro
 - All PRs require tests
 
 ### Security Analysis
-- Responsible disclosure: email security@[tbd] for vulnerabilities
+- Responsible disclosure: email richedw7@gmail.com for vulnerabilities
 - Threat model contributions welcome via PR to `spec/SECURITY.md`
 
 ### Documentation & Examples
