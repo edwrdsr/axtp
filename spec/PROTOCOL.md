@@ -337,7 +337,7 @@ A full implementation additionally provides:
 
 ## Appendix A: Full XR JSON Schema
 
-*To be published as a formal JSON Schema document in `/spec/schemas/xr.schema.json`*
+*Formal JSON schema definition will accompany the v1.0 specification release.*
 
 ## Appendix B: Example XRs
 
