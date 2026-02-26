@@ -128,5 +128,5 @@ Organizations implementing AXTP should consider:
 
 **Document Status**: DRAFT v0.1
 **Last Updated**: 2026-02-19
-**Author**: Rich
+**Author**: Richard Edwards
 **License**: CC BY 4.0
