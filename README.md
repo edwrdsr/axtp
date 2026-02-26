@@ -1,5 +1,7 @@
 # AXTP — Agent Experience Transfer Protocol
 
+🌐 **[axtp.dev](https://axtp.dev)** · 📄 **[White Paper](https://github.com/edwrdsr/axtp/blob/main/docs/axtp-whitepaper.pdf)** · 📰 **[The Abstraction Stack](https://theabstractionstack.substack.com/)**
+
 **An open protocol for structured experience exchange between AI agents.**
 
 AXTP enables agents to capture, validate, and share execution experience — creating compound intelligence across agent networks. Instead of every agent starting from zero, AXTP provides a standardized layer where structured knowledge flows between agents, improving collective task execution over time.
@@ -98,16 +100,16 @@ This is what makes AXTP different from a simple shared database. The governance 
 
 ## Project Status
 
-🚧 **Early Stage — Protocol Specification in Development**
-
-- [x] Problem definition and positioning
-- [ ] Formal protocol specification (v0.1)
-- [ ] XR schema definition (JSON Schema)
-- [ ] Experience Pool interface specification
-- [ ] Trust & Governance framework
-- [ ] Reference implementation (Python)
-- [ ] Example integrations (MCP, LangChain)
-- [ ] Security analysis and threat model
+- [x] Protocol specification (v0.1)
+- [x] Experience Record schema definition
+- [x] Experience Pool interface specification
+- [x] Trust & Governance framework
+- [x] Reference implementation (Python)
+- [x] Security analysis and threat model (white paper §5)
+- [x] Example XRs
+- [ ] MCP server integration (in progress)
+- [ ] Benchmark suite with live agents
+- [ ] Additional framework integrations (LangChain, CrewAI)
 
 ## Repository Structure
 
@@ -115,14 +117,27 @@ This is what makes AXTP different from a simple shared database. The governance 
 axtp/
 ├── spec/              # Protocol specification documents
 │   ├── PROTOCOL.md    # Core protocol specification
-│   ├── XR_SCHEMA.md   # Experience Record schema
 │   ├── GOVERNANCE.md  # Trust and governance framework
 │   └── SECURITY.md    # Security model and threat analysis
 ├── src/               # Reference implementation
-├── examples/          # Example integrations and demos
-├── docs/              # Additional documentation
-└── .github/           # Issue templates, CI/CD
+│   └── axtp.py        # Python reference implementation with demo
+├── examples/          # Example Experience Records
+│   └── xr-stripe-integration.json
+├── docs/              # Documentation and white paper
+│   └── axtp-whitepaper.pdf
+├── CONTRIBUTING.md
+└── LICENSE
 ```
+
+## Quick Start
+
+Run the reference implementation demo:
+
+```bash
+python src/axtp.py
+```
+
+This simulates two agents executing similar tasks — Agent Alpha without prior experience, Agent Beta with access to Alpha's pooled experience. Beta completes the task 65% faster by retrieving and applying Alpha's learnings.
 
 ## Why Open?
 
@@ -147,10 +162,10 @@ Priority areas:
 
 ## Author
 
-**Rich** — Builder of [The Abstraction Stack](https://theabstractionstack.substack.com/?utm_campaign=profile_chips), exploring AI infrastructure and the future of agentic systems. Background in governance, risk, and compliance (GRC) with CISSP certification.
+**Richard Edwards** — CISSP · GRC at Washington University in St. Louis · Builder of [The Abstraction Stack](https://theabstractionstack.substack.com/), exploring AI infrastructure and the future of agentic systems.
 
-- 𝕏: [@Edwrdsr](https://x.com/Edwrdsr)
-- Substack: [The Abstraction Stack](https://theabstractionstack.substack.com/?utm_campaign=profile_chips)
+- 𝕏: [@edwrdsr](https://x.com/edwrdsr)
+- Substack: [The Abstraction Stack](https://theabstractionstack.substack.com/)
 
 ## License
 
