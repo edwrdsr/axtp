@@ -134,7 +134,7 @@ axtp/
 Run the reference implementation demo:
 
 ```bash
-python src/axtp.py
+python3 src/axtp.py
 ```
 
 This simulates two agents executing similar tasks — Agent Alpha without prior experience, Agent Beta with access to Alpha's pooled experience. Beta completes the task 65% faster by retrieving and applying Alpha's learnings.
