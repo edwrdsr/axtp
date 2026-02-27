@@ -162,7 +162,7 @@ Priority areas:
 
 ## Author
 
-**Richard Edwards** — CISSP · GRC at Washington University in St. Louis · Builder of [The Abstraction Stack](https://theabstractionstack.substack.com/), exploring AI infrastructure and the future of agentic systems.
+**Richard Edwards**
 
 - 𝕏: [@edwrdsr](https://x.com/edwrdsr)
 - Substack: [The Abstraction Stack](https://theabstractionstack.substack.com/)
