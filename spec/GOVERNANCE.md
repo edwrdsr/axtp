@@ -1,4 +1,4 @@
-# AXTP Governance Framework (DRAFT)
+# AXTP Governance Framework
 
 ## Overview
 
