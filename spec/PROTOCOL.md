@@ -37,17 +37,16 @@ AXTP operates at a distinct layer in the emerging agent protocol stack:
 ├─────────────────────────────────────────────┤
 │  AXTP (Experience Transfer & Compounding)    │  ← This protocol
 ├─────────────────────────────────────────────┤
-│  A2A (Agent-to-Agent Delegation)             │
+│  A2A (Agent-to-Agent Delegation &             │
+│       Structured Communication)               │
 ├─────────────────────────────────────────────┤
 │  MCP (Tool & Context Connection)             │
-├─────────────────────────────────────────────┤
-│  ACP (Structured Agent Communication)        │
 ├─────────────────────────────────────────────┤
 │           Transport (HTTP, gRPC, WS)         │
 └─────────────────────────────────────────────┘
 ```
 
-AXTP is complementary to — not competitive with — MCP, A2A, and ACP. It can consume events from these protocols to generate Experience Records, and it can feed retrieved experience into agents operating over these protocols.
+AXTP is complementary to — not competitive with — MCP and A2A. It can consume events from these protocols to generate Experience Records, and it can feed retrieved experience into agents operating over these protocols.
 
 ## 2. Core Data Structures
 

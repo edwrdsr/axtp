@@ -32,11 +32,10 @@ AXTP is **not** a replacement for existing agent protocols. It's a complementary
 | Protocol | Function |
 |----------|----------|
 | **MCP** (Anthropic) | Connects agents to tools and data sources |
-| **A2A** (Google) | Enables agent-to-agent task delegation |
-| **ACP** (IBM) | Structures agent communication messages |
+| **A2A** (Google) | Enables agent-to-agent delegation and structured communication |
 | **AXTP** | **Captures, validates, and shares execution experience across agents** |
 
-Agents use MCP to connect, A2A to delegate, ACP to communicate — and **AXTP to learn from each other.**
+Agents use MCP to connect, A2A to delegate — and **AXTP to learn from each other.**
 
 ## Core Concepts
 
